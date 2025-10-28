@@ -1,8 +1,9 @@
 name: immortalwrt_mediatek
 
 on:
-  schedule:
-    - cron: 0 17 * * *
+  repository_dispatch:
+#  schedule:
+#   - cron: 0 17 * * *
   workflow_dispatch:
 
 env:
